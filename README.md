@@ -13,10 +13,11 @@ Our objectives:
 * **Predictive Capability:** Develop models for demand forecasting, stockout risk, and safety stock levels.
 
 ## Team Structure & Roles
-The project follows weekly Scrum sprints with a rotating Scrum Master role:
-* **Data Analyst 1:** Profiling, cleaning, core KPI calculation, and inventory dashboards.
-* **Data Analyst 2:** Supplier performance, warehouse utilization, and customer analytics.
-* **Data Scientist:** Demand forecasting models, stockout risk prediction, and inventory optimization algorithms.
+The project operates in weekly Scrum sprints with a rotating Scrum Master role across a 4-person team:
+* **Data Analyst 1:** Focuses on product performance, fast/slow-moving inventory, turnover, and stock health.
+* **Data Analyst 2:** Focuses on warehouse operations, storage capacity, utilization, and throughput analytics.
+* **Data Analyst 3:** Focuses on supplier performance, reliability, risk profiling, and customer analytics.
+* **Data Scientist:** Focuses on demand forecasting models, stockout risk prediction, and inventory optimization algorithms.
 
 ## Core Datasets
 Located in the `data/` directory[cite: 1, 2]:
