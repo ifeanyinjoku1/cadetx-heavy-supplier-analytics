@@ -4,16 +4,16 @@
 17 August 2026
 
 ## Scrum Master
-SAW YU NANDAR
+Ifeanyi Njoku
 
 ## Sprint Goal
 Understand and profile the project datasets and establish initial KPIs and business questions.
 
 ## Team Members
-- IFEANYI — Data Analyst
-- FATIMA MALIK — Data Analyst
-- JALOLIDDIN SAYFIDDINOV — Data Analyst
-- SAW YU NANDAR — Data Scientist
+- Ifeanyi Njoku — Data Analyst
+- Fatima Malik — Data Analyst
+- Jaloliddin Sayfiddinov — Data Analyst
+- Saw Yu Nandar — Data Scientist
 
 ## Tasks
 
