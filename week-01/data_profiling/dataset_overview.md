@@ -3,8 +3,7 @@
 ## Project Context
 * **Project:** Heavy Supplier, Inventory & Warehouse Analytics
 * **Team:** CX-2026-HSWA-19
-* **Scrum Master:** Ifeanyi Njoku
-
+  
 ---
 
 ## 1. High-Level Dataset Metrics
