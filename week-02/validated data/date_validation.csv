@@ -1,0 +1,14 @@
+Dataset,Column,Minimum Date,Maximum Date,Invalid Dates
+Sales Header,order_date,2019-01-01,2024-12-31,0
+Sales Header,delivery_date,2019-01-02,2025-01-13,0
+Integrated Sales,order_date,2019-01-01,2024-12-31,0
+Integrated Sales,delivery_date,2019-01-02,2025-01-13,0
+Integrated Sales,last_purchase_date,2019-03-15,2025-04-27,0
+Integrated Sales,last_purchase_date_customer,2015-04-30,2024-12-27,0
+Purchase Header,order_date,2019-01-01,2024-12-31,0
+Purchase Header,expected_delivery_date,2019-01-11,2025-01-28,0
+Purchase Header,received_date,2019-01-11,2025-01-28,2370
+Integrated Purchases,order_date,2019-01-01,2024-12-31,0
+Integrated Purchases,expected_delivery_date,2019-01-11,2025-01-28,0
+Integrated Purchases,received_date,2019-01-11,2025-01-28,15418
+Integrated Purchases,last_purchase_date,2019-03-15,2025-04-27,0

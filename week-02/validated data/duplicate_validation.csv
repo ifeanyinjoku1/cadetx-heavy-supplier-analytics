@@ -1,0 +1,7 @@
+Dataset,Rows,Duplicate Rows,Duplicate %
+Sales Header,20000,0,0.0
+Sales Lines,130402,0,0.0
+Integrated Sales,130402,0,0.0
+Purchase Header,24000,0,0.0
+Purchase Lines,155495,0,0.0
+Integrated Purchases,155495,0,0.0
