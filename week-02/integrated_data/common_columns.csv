@@ -1,0 +1,40 @@
+Dataset 1,Dataset 2,Common Columns
+branches,customers,"branch_id, city, region, state"
+branches,inventory,branch_id
+branches,invoices,branch_id
+branches,purchase_headers,branch_id
+branches,sales_headers,branch_id
+branches,stock_ledger,branch_id
+branches,suppliers,"city, region"
+customers,inventory,branch_id
+customers,invoices,"branch_id, customer_id"
+customers,products,last_purchase_date
+customers,purchase_headers,branch_id
+customers,sales_headers,"branch_id, customer_id, payment_terms"
+customers,stock_ledger,branch_id
+customers,suppliers,"city, pincode, region"
+inventory,invoices,branch_id
+inventory,products,"product_id, reorder_level, safety_stock"
+inventory,purchase_headers,branch_id
+inventory,purchase_lines,product_id
+inventory,sales_headers,branch_id
+inventory,sales_lines,product_id
+inventory,stock_ledger,"branch_id, product_id"
+invoices,payments,invoice_id
+invoices,purchase_headers,"branch_id, grand_total, total_gst_amount"
+invoices,sales_headers,"branch_id, customer_id, grand_total, so_id, total_gst_amount, total_order_value"
+invoices,sales_lines,so_id
+invoices,stock_ledger,branch_id
+products,purchase_lines,"gst_rate, product_id, unit_cost"
+products,sales_lines,"gst_rate, product_id, unit_price"
+products,stock_ledger,product_id
+products,suppliers,lead_time_days
+purchase_headers,purchase_lines,po_id
+purchase_headers,sales_headers,"branch_id, grand_total, order_date, total_gst_amount"
+purchase_headers,stock_ledger,branch_id
+purchase_headers,suppliers,supplier_id
+purchase_lines,sales_lines,"gst_amount, gst_rate, line_grand_total, line_number, line_total, product_id, quantity"
+purchase_lines,stock_ledger,"product_id, quantity"
+sales_headers,sales_lines,so_id
+sales_headers,stock_ledger,branch_id
+sales_lines,stock_ledger,"product_id, quantity"
