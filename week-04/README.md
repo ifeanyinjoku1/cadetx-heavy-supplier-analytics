@@ -1,41 +1,71 @@
-# Week 04: Product Performance Analysis
+# Week 04 — Product Performance Analysis
 
 ## Sprint Goal
-Analyze product sales performance to identify top-performing, fast-moving, slow-moving, and potentially underperforming products, and provide initial business insights.
 
-## Workflow Pipeline
-`Week 1-3 Data` -> `01_product_performance.ipynb` -> `Product Performance Dataset` -> `Business Insights & Visualizations`
+Analyse product sales performance and identify fast-, medium-, and slow-moving products.
 
 ## Objectives
-* Prepare product-sales dataset by combining cleaned product and sales data
-* Calculate product-level sales metrics (units sold, revenue, average price, order count)
-* Analyze sales performance across product categories and temporal trends
-* Classify fast-moving vs. slow-moving products and identify non-moving stock
-* Create clear visualizations and derive actionable business recommendations
 
-## Completed Tasks
-- [x] Dataset preparation & joining
-- [x] Product KPI calculations
-- [x] Category performance analysis
-- [x] Fast & slow movers classification
-- [x] Sales trend over time analysis
-- [ ] Product performance visualizations
-- [ ] Key findings documentation
-- [ ] Business recommendations & observations
+* Analyse product-level sales performance.
+* Calculate key product KPIs.
+* Identify fast- and slow-moving products.
+* Compare products by revenue and units sold.
+* Analyse selling price, cost, and margin.
+* Create product performance visualisations.
+
+## Analysis Performed
+
+### Product Performance
+
+Analysed:
+
+* Total units sold
+* Total revenue
+* Number of transactions
+* Average unit selling price
+* Average unit cost
+* Average product margin
+
+### Product Movement
+
+Products were classified using sales-volume percentiles:
+
+* **Fast-Moving:** ≥ 75th percentile
+* **Medium-Moving:** 25th–75th percentile
+* **Slow-Moving:** ≤ 25th percentile
+
+## Key KPIs
+
+| KPI                        | Description                      |
+| -------------------------- | -------------------------------- |
+| Products Analysed          | Number of unique products        |
+| Total Units Sold           | Total quantity sold              |
+| Total Revenue              | Total sales value                |
+| Average Product Margin (%) | Average margin                   |
+| Fast-Moving Products       | Number of fast-moving products   |
+| Medium-Moving Products     | Number of medium-moving products |
+| Slow-Moving Products       | Number of slow-moving products   |
+
+## Visualisations
+
+* Top 10 Products by Revenue
+* Top 10 Products by Units Sold
+* Product Movement Classification
 
 ## Key Findings
-*Pending sprint completion.*
 
-## KPI Results
-* **Total Units Sold:** *Pending calculation*
-* **Total Revenue:** *Pending calculation*
-* **Number of Orders:** *Pending calculation*
-* **Average Selling Price:** *Pending calculation*
+*To be completed after analysis.*
 
-## Business Insights
-*Pending sprint completion.*
+* Top-performing products:
+* Highest-revenue products:
+* Fast-moving products:
+* Slow-moving products:
+* Highest-margin products:
 
-## Outputs
-* Clean product-sales performance dataset (`product_performance_summary.csv`)
-* Performance summary documentation (`product_performance_summary.md`)
-* Product analytics visualizations
+## Limitations
+
+Sales performance alone does not determine inventory health. Further analysis is required for inventory turnover, overstock, understock, and stock health.
+
+## Next Sprint
+
+**Week 5 — Inventory Health & Turnover Analysis**
