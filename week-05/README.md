@@ -1,25 +1,27 @@
 # Week 05: Inventory Health & Turnover Analysis
 
 ## Sprint Goal
-Analyze inventory levels and movement to identify stock health, turnover, overstock, and understock risks.
+Analyze inventory levels and movement to assess stock requirements, product movement, and inventory management priorities.
 
 ## Workflow Pipeline
-`Week 4 Product Data` -> `01_inventory_health.ipynb` -> `ABC Classification & Stock Health` -> `Business Insights & Visualizations`
+`Product & Sales Data` -> `01_inventory_health.ipynb` -> `Stock Requirements & ABC Classification` -> `Business Insights & Visualizations`
 
 ## Objectives
-* Integrate inventory data with Week 4 product performance metrics
-* Calculate total inventory quantity and value tied up in stock
-* Analyze inventory turnover and identify low-turnover items
-* Identify overstocked and understocked products against reorder thresholds
+* Analyze product stock requirements using safety stock, reorder level, and maximum stock level
+* Calculate stock requirement values using product costs
+* Analyze product movement and identify fast-, medium-, and slow-moving products
+* Analyse lead times and their relationship with safety stock
 * Perform ABC/Pareto classification to prioritize inventory management
 
 ## Completed Tasks
-- [x] Data integration & cost calculation
-- [x] Total inventory quantity & value calculations
-- [x] Turnover ratio assessment
-- [x] Overstock/Understock risk classification
-- [x] ABC/Pareto ranking assignment
-- [ ] Visualizations rendering
+- [x] Data preparation & inventory field validation
+- [x] Stock threshold analysis
+- [x] Safety stock, reorder level, and maximum stock calculations
+- [x] Stock requirement value calculations
+- [x] Product movement classification
+- [x] Lead-time analysis
+- [x] ABC/Pareto classification
+- [x] Visualizations
 - [ ] Key findings summary
 - [ ] Business recommendations & observations
 
@@ -27,16 +29,27 @@ Analyze inventory levels and movement to identify stock health, turnover, overst
 *Pending sprint completion.*
 
 ## KPI Results
-* **Total Inventory Quantity:** *Pending calculation*
-* **Total Inventory Value:** *Pending calculation*
-* **Overstocked Products Count:** *Pending calculation*
-* **Understocked Products Count:** *Pending calculation*
+* **Products Analysed:** *Pending calculation*
+* **Total Safety Stock:** *Pending calculation*
+* **Total Reorder Level:** *Pending calculation*
+* **Total Maximum Stock Level:** *Pending calculation*
+* **Safety Stock Value:** *Pending calculation*
+* **Reorder Stock Value:** *Pending calculation*
+* **Maximum Stock Value:** *Pending calculation*
+* **Average Lead Time:** *Pending calculation*
+* **A-Class Products:** *Pending calculation*
+* **B-Class Products:** *Pending calculation*
+* **C-Class Products:** *Pending calculation*
+* **Fast-Moving Products:** *Pending calculation*
+* **Medium-Moving Products:** *Pending calculation*
+* **Slow-Moving Products:** *Pending calculation*
 
 ## Business Insights
 *Pending sprint completion.*
 
 ## Outputs
-* Inventory health processed dataset (`inventory_health_summary.csv`)
-* Inventory analysis report (`inventory_health_summary.md`)
-* Inventory analytics visualizations
-
+* Product stock requirements (`product_stock_requirements.csv`)
+* Inventory health analysis (`inventory_health_summary.csv`)
+* ABC classification (`abc_classification.csv`)
+* Week 5 KPI results (`week5_inventory_kpis.csv`)
+* Inventory analysis visualizations
