@@ -1,0 +1,12 @@
+KPI,Value
+Products Analysed,30.0
+Total Safety Stock,604.0
+Total Reorder Level,1192.0
+Total Maximum Stock Level,3145.0
+Safety Stock Value,1924350.0
+Reorder Stock Value,3623000.0
+Maximum Stock Value,9915650.0
+Average Lead Time (Days),17.0
+A-Class Products,16.0
+B-Class Products,8.0
+C-Class Products,6.0
