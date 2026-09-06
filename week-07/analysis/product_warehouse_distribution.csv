@@ -1,0 +1,31 @@
+product_id,product_name,warehouses_served,total_units,total_revenue,warehouse_concentration
+P001,Hydraulic Pump HP-300,6,45389,1112030500,Multiple Warehouses
+P002,Engine Oil Filter OF-90,6,45342,32646240,Multiple Warehouses
+P003,Air Filter AF-120,6,45684,57105000,Multiple Warehouses
+P004,Track Chain TC-45,6,45575,1813885000,Multiple Warehouses
+P005,Fuel Injector FI-220,6,45026,380469700,Multiple Warehouses
+P006,Alternator ALT-500,6,46731,523387200,Multiple Warehouses
+P007,Hydraulic Hose HH-60,6,46468,67378600,Multiple Warehouses
+P008,Bucket Tooth BT-10,6,45376,26318080,Multiple Warehouses
+P009,Starter Motor SM-700,6,44946,669695400,Multiple Warehouses
+P010,Turbocharger TB-900,6,46964,1639043600,Multiple Warehouses
+P011,Hydraulic Cylinder HC-200,6,46612,1286491200,Multiple Warehouses
+P012,Brake Pad BP-40,6,45972,112631400,Multiple Warehouses
+P013,Seal Kit SK-15,6,44081,63917450,Multiple Warehouses
+P014,Transmission Assembly TA-800,6,45035,3760422500,Multiple Warehouses
+P015,Engine Block EB-600,6,45222,5381418000,Multiple Warehouses
+P016,Radiator RD-250,6,46306,472321200,Multiple Warehouses
+P017,Fan Belt FB-30,6,45578,23700560,Multiple Warehouses
+P018,Wheel Rim WR-24,6,45027,508805100,Multiple Warehouses
+P019,Swing Motor SWM-350,6,45971,1829645800,Multiple Warehouses
+P020,Pivot Pin PP-12,6,45340,52141000,Multiple Warehouses
+P021,Boom Cylinder BC-400,6,46364,2142016800,Multiple Warehouses
+P022,Control Valve CV-75,6,45819,774341100,Multiple Warehouses
+P023,Idler Wheel IW-55,6,44437,575459150,Multiple Warehouses
+P024,Track Roller TR-60,6,44022,453426600,Multiple Warehouses
+P025,Cabin Glass CG-20,6,45598,357944300,Multiple Warehouses
+P026,Grease Cartridge GC-5,6,44844,13901640,Multiple Warehouses
+P027,O-Ring Set OR-50,6,45678,21925440,Multiple Warehouses
+P028,Light Assembly LA-18,6,46164,103869000,Multiple Warehouses
+P029,Pressure Sensor PS-90,6,47066,185910700,Multiple Warehouses
+P030,Fuel Pump FP-350,6,45897,1005144300,Multiple Warehouses
