@@ -1,0 +1,15 @@
+KPI,Value
+Total Historical Revenue,25447392560
+Total Units Sold,1368534
+Total Orders,20000
+Average Monthly Revenue,353436007.7777778
+Peak Sales Month,2020-07
+Peak Monthly Revenue,429255230
+Lowest Sales Month,2019-02
+Lowest Monthly Revenue,281974060
+Forecast Horizon (Months),6
+Forecasted Revenue,2042746636.0374198
+Average Forecasted Monthly Revenue,340457772.6729033
+Best Forecasting Model,Exponential Smoothing
+Best Model MAE,29415487.706447963
+Best Model RMSE,34072633.90270184
